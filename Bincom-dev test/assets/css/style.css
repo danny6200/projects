@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;;
+    color: purple;
+}
+
+header {
+    padding: 0 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.navbar-left h1 {
+    font-size: 20px;
+}
+
+.navbar-left img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navlinks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navlinks li {
+    list-style: none;
+    
+}
+
+.navlinks li:hover {
+    border-bottom: 1px solid purple;
+    transition: 1s linear eas;
+}
+
+.navlinks a {
+    font-size: 20px;
+    text-decoration: none;
+    color: purple; 
+}
+
+main {
+    width: 350px;
+    margin: 0 auto;
+}
+
+main figure {
+    width: 200px;
+    margin: 0 auto;
+}
+
+main img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+main p {
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.full-img {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.sch-img {
+    width: 450px;
+    margin: 0 auto;
+
+}
+
+.sch-img img {
+    width: 450px;
+}
+
+.footer {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer i {
+    margin-right: 10px;
+}
